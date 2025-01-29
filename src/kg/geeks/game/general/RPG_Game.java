@@ -18,7 +18,7 @@ public class RPG_Game {
         Medic assistant = new Medic(320, "Sultan", 5);
         Bomber dad = new Bomber(100, 20, "dad");
         King mam = new King(100,  "mam");
-        Japanese lol = new Japanese(150,30, "Japanese");
+        Japanese lol = new Japanese(500,35, "Japanese");
         Hero[] heroes = {warrior1, doc, magic, warrior2, berserk, assistant, dad,mam,lol};
 
         printStatistics(boss, heroes);
